@@ -1,7 +1,3 @@
-// Liste des jeux phrases ou mots
-let listeMots = ["Cachalot", "Pétunia", "Serviette"]
-let listePhrases = ["Pas de panique !", "La vie, l’univers et le reste", "Merci pour le poisson"]
-
 // Demander à l'utilisateur de choisir
 function choisirPhrasesOuMots() {
   let choix = prompt("Sélectionnez votre liste : 'mots' ou 'phrases'")
@@ -42,6 +38,3 @@ function lancerJeu() {
   }
   afficherResultat(score, nbMotsProposes)
 }
-
-// Débuter le jeu
-lancerJeu()

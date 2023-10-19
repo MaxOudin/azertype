@@ -1,0 +1,2 @@
+// Débuter le jeu
+lancerJeu()
